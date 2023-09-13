@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "convertlist"
+version = "0.1.0"
+description = "this project will help convert 5 objects into comma separated format"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.28.0"
+langchain = "^0.0.287"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
