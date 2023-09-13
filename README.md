@@ -9,15 +9,15 @@ Object type will be put in by the user
 
 # Create project
 ## Installations prerequisites
-install conda
-pip install python-dotenv
-pip install openai
-pip install langchain
+1. install conda
+2. pip install python-dotenv
+3. pip install openai
+4. pip install langchain
 
 ## Steps to create project
-conda create -n convert_list python=3.11
-conda activate convert_list
-pip install poetry
+1. conda create -n convert_list python=3.11
+2. conda activate convert_list
+3. pip install poetry
 ### Create a pyproject.toml file
-poetry init 
-poetry install     
+1. poetry init 
+2. poetry install     
